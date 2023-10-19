@@ -1,0 +1,4 @@
+#+TITLE: Calculator
+#+AUTHOR: Bilel Hamitouche
+
+Simple calculator written in html, css and Javascript made to run in the browser.
