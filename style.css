@@ -3,39 +3,54 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Roboto, sans-serif;
+    font-family: Poppins, sans-serif;
 }
 
 * body {
-    background-color: #8855ff;
+    background-color: #ffffff;
     height: 100vh;
 }
 
 .calculator {
     padding: 0.5em;
     text-align: center;
+    color: #000000;
     font-weight: bold;
     margin: 50px auto;
     width: 300px;
-    height: 500px;
+    height: 450px;
     font-size: 1.5rem;
-    background-color: #ffffee;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border-radius: 6px;
+    box-shadow: 2px 2px 5px #555555;
 }
 
 .input {
-    background-color: #888888;
-    min-height: 50px;
+    background-color: #dddddd;
+    color: #000000;
+    padding: 5px;
+    border-radius: 6px;
+    text-align: right;
+}
+
+.previous, .current {
+    min-height: 30px;
+}
+
+.previous {
+    font-size: 1rem;
 }
 
 .buttons {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background-color: #292d3e;
-    min-height: 370px;
+    background-color: #ffffff;
+    min-height: 320px;
+    border-radius: 6px;
 }
 
 .first-row .second-row .third-row .fourth-row {
@@ -49,23 +64,23 @@
     width: 55px;
     border-radius: 5px;
     border: none;
+    box-shadow: 1px 1px 5px #555555;
 }
 
-.operator {
-    background-color: #8855ff;
+.operator, .equal {
+    background-color: #ffffff;
 }
 
 .number {
-    background-color: #f1fa8c;
+    background-color: #ffffff;
 }
 
 .clear {
-    background-color: #ff2255;
-    color: #ffffee;
+    background-color: #ffffff;
 }
 
 footer {
     text-align: center;
-    color: #ffffee;
-    font-family: Ariel, sans-serif;
+    color: #657b83;
+    font-family: Poppins, sans-serif;
 }

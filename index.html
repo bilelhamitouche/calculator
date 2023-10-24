@@ -2,20 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8"/>
-    <title>Simple Calculator</title>
+    <title>Calculator</title>
     <link href="style.css" rel="stylesheet"/>
     <script src="script.js" defer></script>
   </head>
   <body>
     <div class="calculator">
       Calculator
-      <div class="input"></div>
+      <div class="input">
+	<div class="previous"></div>
+	<div class="current"></div>
+      </div>
       <div class="buttons">
 	<div class="first-row">
 	  <button class="button number">7</button>
 	  <button class="button number">8</button>
 	  <button class="button number">9</button>
-	  <button class="button operator">÷</button>
+	  <button class="button operator">/</button>
 	</div>
 	<div class="second-row">
 	  <button class="button number">4</button>
@@ -32,7 +35,7 @@
 	<div class="fourth-row">
 	  <button class="button clear">C</button>
 	  <button class="button number">0</button>
-	  <button class="button operator">=</button>
+	  <button class="button equal">=</button>
 	  <button class="button operator">+</button>
 	</div>
       </div>
