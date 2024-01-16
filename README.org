@@ -6,3 +6,5 @@ Simple calculator written in html, css and Javascript made to run in the browser
 [[./screenshots/calculator.png]]
 [[./screenshots/calculator2.png]]
 [[./screenshots/calculator3.png]]
+
+[[https://billelmadrid.github.io/calculator][Live Demo]]
