@@ -68,6 +68,10 @@
     box-shadow: 1px 1px 5px #555555;
 }
 
+.button:hover {
+  cursor: pointer;
+} 
+
 .operator, .equal {
     background-color: #ffffff;
 }
